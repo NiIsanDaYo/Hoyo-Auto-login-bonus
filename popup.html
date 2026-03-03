@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HoYoLab ログインボーナス</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title">HoYoLab</h1>
+        <p class="subtitle">ログインボーナス <span class="auto-badge">自動取得</span></p>
+      </header>
+
+      <div class="game-list">
+        <button class="game-card" id="genshin" data-game="genshin">
+          <div class="game-info">
+            <span class="game-name">原神</span>
+            <span class="game-sub">Genshin Impact</span>
+          </div>
+        </button>
+
+        <button class="game-card" id="starrail" data-game="starrail">
+          <div class="game-info">
+            <span class="game-name">崩壊：スターレイル</span>
+            <span class="game-sub">Honkai: Star Rail</span>
+          </div>
+        </button>
+
+        <button class="game-card" id="zzz" data-game="zzz">
+          <div class="game-info">
+            <span class="game-name">ゼンレスゾーンゼロ</span>
+            <span class="game-sub">Zenless Zone Zero</span>
+          </div>
+        </button>
+      </div>
+
+      <footer class="footer">
+        <button class="open-all-btn" id="openAll">すべて取得</button>
+      </footer>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
